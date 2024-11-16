@@ -3,16 +3,16 @@ Função de Login e Cadastro do projeto de aplicativo BEL. Desenvolvimento acad�
 
 import getpass
 
-# Lista para armazenar os dados dos usuários
+### Lista para armazenar os dados dos usuários
 usuarios = []
 
 def cadastrar_usuario():
     print("\n--- Cadastro de Usuário ---")
 
-  # Captura o e-mail
+  ### Captura o e-mail
    email = input("Digite seu e-mail: ")
     
-  # Verifica se o e-mail já foi cadastrado
+  ### Verifica se o e-mail já foi cadastrado
   for usuario in usuarios:
       if usuario['email'] == email:
           print("Erro: Este e-mail já está cadastrado.\n")
