@@ -1,4 +1,4 @@
-# Funcao-Cadastro-APP-BEL
+# Funcao-Cadastro-APP-BEL-Python
 Função de Login e Cadastro do projeto de aplicativo BEL. Desenvolvimento acadêmico.
 
 import getpass
