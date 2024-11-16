@@ -18,19 +18,19 @@ def cadastrar_usuario():
           print("Erro: Este e-mail já está cadastrado.\n")
           return
 
-   # Captura o nome de usuário
+   ### Captura o nome de usuário
   nome = input("Digite seu nome: ")
 
-   # Captura a senha e confirmação de senha
+   ### Captura a senha e confirmação de senha
   senha = getpass.getpass("Digite sua senha: ")
    confirma_senha = getpass.getpass("Confirme sua senha: ")
 
-  # Valida a confirmação de senha
+  ### Valida a confirmação de senha
    if senha != confirma_senha:
       print("Erro: As senhas não coincidem.\n")
       return
 
-   # Armazena os dados do usuário no sistema (simulado em uma lista)
+   ### Armazena os dados do usuário no sistema (simulado em uma lista)
    usuarios.append({
       'nome': nome,
       'email': email,
@@ -47,7 +47,7 @@ def exibir_usuarios():
     else:
         print("Nenhum usuário cadastrado no sistema.")
 
-# Execução do programa
+### Execução do programa
 while True:
     print("\n1. Cadastrar Novo Usuário")
     print("2. Exibir Usuários Cadastrados")
